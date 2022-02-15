@@ -41,3 +41,8 @@ console.log("Hello World!")
 //| Square                | it creates new Execution context when the square function is invoked.once sqaure function retuns.it delets from call stack.and goes back where it left off.
 //|Global Exection context|
 //|--------|
+
+//Javascript is Case Sensitive.
+//Comments in Javascripts are: //Single Line Comment /* */ MultiLine Commments.
+//!# Hashbang comments are used to Specify the path to a particular Javascript Engine.
+
