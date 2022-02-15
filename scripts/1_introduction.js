@@ -30,7 +30,6 @@ function square(num){
 var square2 = square(number);
 var square4 = square(4);
 console.log("Hello World!")
-
 //Once the Javascript Reaches the last line of code(Once its finishes the Execution context).It deletes the whole Execution context.
 //This Whole thing is controlled by Call Stack.Whan the Javascript Engine starts.. it creats a new Call stack to keep all
 //Execution contexts in it.Once its finshes it execution, call satck will delete (remove) execution context from it.
