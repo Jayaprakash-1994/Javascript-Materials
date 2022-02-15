@@ -2,8 +2,8 @@
 //Javascript is a lightweight iterpreted & just in time complied langauge and its first call function programing Lanaguge(Functions are treated like a variable). 
 // Javascript is Syncronous(Single line at a time in a Specific Order) and Single threaded Programming langauge.
 //(Everything in Javascript Happens  inside this Execution Context) It has two Components which are Memory Components and Code Components.
-// Memory Context used to store all Variable .
-// Code Context used to execute code Line by line.(Thread of Execution)
+// Memory Components used to store all Variable .
+// Code Components used to execute code Line by line.(Thread of Execution)
 //  |----------------------------------| 
 //  |          Exection Context        |
 //  |----------------------------------| 
@@ -15,10 +15,11 @@
 //  | ---------------------------------| 
 
 //In the First Phase javascript goes through all lines one by one for decarlaring and assigning the values(undefined) to the variables.(Memory Componets).
-//For example number will be declared and assigned as undefined in the first phase.
+//For example variable number will be declared and assigned as undefined in the first phase.
+//In Second Phase(Code Phase) it assigns the value 12 to the variable number.
 // Decalares and Stores complete function inside the variable sqaure.
 var number = 12; 
-//Num is parameter of the Function.
+//num is parameter of the Function.
 function square(num){
     return num * num
 }
