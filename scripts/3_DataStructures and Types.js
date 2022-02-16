@@ -13,6 +13,7 @@
 // Array
 // Objects
 // Functions
+/********************Important************************** */ 
 //In Javascript all primitive types are immutable. and Non-Primitive types are Mutable.
 //Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
 //Boolean
@@ -31,9 +32,10 @@ var parseFloat =  parseFloat(num);
 //string
 var str = "Jayaprakash";
 //String Concationation.
+console.log("Jayaprakash"+" is Working at Quess Corperation");
 console.log(`${str} is Working at Quess Corperation`);
 
-//Long String Literals
+//Long String Literals..You can use \ for line breaks.
 var longStringLiterals = 'asdsadasdsa asdsd \
 asdasdsadasdasd \
 '

@@ -11,7 +11,7 @@ The block statments is delimited by a Pair of Curly brackets.
 Blocks are Mainly used for Control flow Statements.
 */
 //Control Statements. 2 Types.
-// 1. If else Statements
+// 1. If else Statements.
 // 2. Switch Statements.
 var bool = true;
 if(bool){
@@ -42,6 +42,8 @@ try{
 }
 catch(e){
     console.log(e);
+    //You can throw the used defined error in the console.
+    throw "Error"
 }
 finally{
     console.log("always Finally will execute ");

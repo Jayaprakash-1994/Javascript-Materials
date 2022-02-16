@@ -7,7 +7,7 @@
 //  |----------------------------------| 
 //  |          Exection Context        |
 //  |----------------------------------| 
-//  | Memory Components|Code Components|    
+//  | Memory Component | Code Component|    
 //  |----------------------------------| 
 //  | a:10             |               | 
 //  | key:value        |               | 
@@ -31,13 +31,13 @@ var square2 = square(number);
 var square4 = square(4);
 console.log("Hello World!")
 //Once the Javascript Reaches the last line of code(Once its finishes the Execution context).It deletes the whole Execution context.
-//This Whole thing is controlled by Call Stack.Whan the Javascript Engine starts.. it creats a new Call stack to keep all
+//This Whole thing is controlled by Call Stack.When the Javascript Engine starts.. it creates a new Call stack to keep all
 //Execution contexts in it.Once its finshes it execution, call satck will delete (remove) execution context from it.
 //|                       |
 //|                       |
 //|                       |
 //|                       |
-//| Square                | it creates new Execution context when the square function is invoked.once sqaure function retuns.it delets from call stack.and goes back where it left off.
+//| Square                | it creates new Execution context when the square function is invoked.once sqaure function retuns.it deletes from call stack.and goes back where it left off.
 //|Global Exection context|
 //|--------|
 
