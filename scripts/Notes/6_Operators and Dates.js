@@ -17,12 +17,17 @@
     2. typeof.
         typeof returns the type of operand. eg. typeof(12) it returns number.
     3. void.
-        used Non Return function. void will return undefined.
+        used Non Return function. void will return undefined. void ( 10 == '10') returns undefined & void 10 == '10'  returns false
+        The void operator specifies an expression to be evaluated without returning a value. expression is a JavaScript expression to evaluate. The parentheses surrounding the expression are optional, but it is good style to use them to avoid precedence issues.
 10.Relation Operator. (in, instanceOf)
     1.The in operator returns true if the specified property is in the specified object. The syntax is:
         'length' in String
     2.The instanceof operator returns true if the specified object is of the specified object type. The syntax is:
         objectName instanceof objectType
+        let d = new date();
+        d instanceof Date;   returns true
+        d instanceof Object; returns true
+        d instanceof Number; returns fasle
 
 Javascript has Pre-increment and post increment
 pre-Increment:-

@@ -1,0 +1,23 @@
+
+****WWW :- ********************
+	WWW Refers to World Wide Web. The web is a massive network of webpages , Programs, files. They are
+	Accessible via URL's.
+
+****Powered By Protocals :-****
+		1. DNS :- Domain Name System Converts domain names to IP Address.
+		2. HTTP :- Hyper text Transfer Protocal to request the webpage that contains from the IP Address.
+		It may also use TLS (Transport Layer Security) Protocal to serve the Website Over Secure,encrypted Connection.	
+
+**** HTTP Response Codes :- ****
+	1. Informational Responses (100 - 199)
+	2. Successfull Responses (200- 299)
+	3. Redirctional Responses ( 300-399)
+	4. Client Error Responses (400 - 499)
+	5. Server Error Responses (500-599)
+
+
+	---------     httpRequest   --------
+	|		 |    ---------->  |		|
+	|Client  |    <----------  | Server |
+	|(TCP/IP)|   http Response |		|
+	---------				    --------

@@ -17,3 +17,17 @@ var obj = {
 var expersion = "\s.*";
 //7.String literals.
 var str = "String Literals are sequence of Characters";
+//function literals
+var square = function(x) {
+    return x *x ;
+}
+
+//ES2020 added new feature conditional property access.
+//expression?.property
+//for example let obj = {a: 12,b: 13}
+//If we try to access the property c in obj object we get Type error. by using the Operator we can aviod getting Type error.
+//because if the expression evalutes to null/undefined , then the entire expression immediately evalutes to null / Undefined.
+
+
+
+

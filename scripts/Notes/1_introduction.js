@@ -4,6 +4,7 @@
 //(Everything in Javascript Happens  inside this Execution Context) It has two Components which are Memory Components and Code Components.
 // Memory Components used to store all Variable .
 // Code Components used to execute code Line by line.(Thread of Execution)
+//  |             Call Stack           |
 //  |----------------------------------| 
 //  |          Exection Context        |
 //  |----------------------------------| 
@@ -15,7 +16,7 @@
 //  | ---------------------------------| 
 
 //In the First Phase javascript goes through all lines one by one for decarlaring and assigning the values(undefined) to the variables.(Memory Componets).
-//For example variable number will be declared and assigned as undefined in the first phase.
+//For example variable number will be declared and assigned as undefined in the first phase (Memeory Component).
 //In Second Phase(Code Phase) it assigns the value 12 to the variable number.
 // Decalares and Stores complete function inside the variable sqaure.
 var number = 12; 
@@ -43,5 +44,8 @@ console.log("Hello World!")
 
 //Javascript is Case Sensitive.
 //Comments in Javascripts are: //Single Line Comment /* */ MultiLine Commments.
-//!# Hashbang comments are used to Specify the path to a particular Javascript Engine.like "V8" for chrome & "Spider Monkey" for Firefox.
+//!# Hashbang comments are used to Specify the path to a particular Javascript Engine.
+//like "V8" for chrome & "Spider Monkey" for Firefox.
+//Javascriptcore for Safari & Chakra for Edge browser.
+//Note also that no whitespace of any kind is permitted before the #!.
 
