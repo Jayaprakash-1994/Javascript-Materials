@@ -1,5 +1,6 @@
 //JavaScript Has 7 different Premitive Datatypes.
 /* 
+
 1. Boolean (true or false) immutable
 2. null (A Special keyword denoting 'null' value null is not same as Null and NULL) immutable
 3. undefined (Top level property whose value is not defined) immutable
